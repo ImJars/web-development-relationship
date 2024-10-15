@@ -1,3 +1,220 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.vector-home {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    display: none;
+    height: 100%;
+    transition-property: transform;
+    transition-duration: .15s;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+}
+.vector-header {
+    left: 0;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    max-width: 135px
+}
+
+@media (min-width: 1024px) {
+    .vector-header {
+        display:block
+    }
+}
+
+.vector-home--corner-stain {
+    left: 0;
+    top: 0;
+    z-index: 1;
+    display: block;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 50%;
+    max-width: 36rem;
+    animation: home-bubble 30s ease-in-out infinite;
+}
+
+@media (min-width: 768px) {
+    .vector-home--corner-stain {
+        width:33.333333%
+    }
+}
+
+@media (min-width: 1280px) {
+    .vector-home--corner-stain {
+        width:20%;
+    }
+}
+
+@keyframes home-bubble {
+    0% {
+        transform: translateZ(0)
+    }
+
+    25% {
+        transform: translate3d(-10px,-20px,0)
+    }
+
+    50% {
+        transform: translate3d(-20px,-5px,0)
+    }
+
+    75% {
+        transform: translate3d(-5px,-28px,0)
+    }
+
+    to {
+        transform: translateZ(0)
+    }
+}
+
+.animate-lineLeft1 {
+    animation: lineLeft1 5s ease 0s infinite
+}
+.animate-lineLeft2 {
+    animation: lineLeft2 15s ease 0s infinite
+}
+.animate-lineLeft3 {
+    animation: lineLeft3 10s ease 0s infinite
+}
+.animate-lineRight1 {
+    animation: lineRight1 3s ease 0s infinite
+}
+.animate-lineRight2 {
+    animation: lineRight2 12s ease 0s infinite
+}
+.animate-lineRight3 {
+    animation: lineRight3 8s ease 0s infinite
+}
+
+@keyframes lineLeft1 {
+    0% {
+        stroke-dashoffset: 1759.962158203125
+    }
+
+    33.33% {
+        stroke-dashoffset: 0
+    }
+
+    66.66% {
+        stroke-dashoffset: 0
+    }
+
+    99.99% {
+        stroke-dashoffset: -1759.962158203125
+    }
+
+    to {
+        stroke-dashoffset: 1759.962158203125
+    }
+}
+@keyframes lineLeft2 {
+    0% {
+        stroke-dashoffset: 1894.684814453125
+    }
+
+    33.33% {
+        stroke-dashoffset: 0
+    }
+
+    66.66% {
+        stroke-dashoffset: 0
+    }
+
+    99.99% {
+        stroke-dashoffset: -1894.684814453125
+    }
+
+    to {
+        stroke-dashoffset: 1894.684814453125
+    }
+}
+@keyframes lineLeft3 {
+    0% {
+        stroke-dashoffset: 1524.201904296875
+    }
+
+    33.33% {
+        stroke-dashoffset: 0
+    }
+
+    66.66% {
+        stroke-dashoffset: 0
+    }
+
+    99.99% {
+        stroke-dashoffset: -1524.201904296875
+    }
+
+    to {
+        stroke-dashoffset: 1524.201904296875
+    }
+}
+@keyframes lineRight1 {
+    0% {
+        stroke-dashoffset: 1431.4698486328125
+    }
+
+    33.33% {
+        stroke-dashoffset: 0
+    }
+
+    66.66% {
+        stroke-dashoffset: 0
+    }
+
+    99.99% {
+        stroke-dashoffset: -1431.4698486328125
+    }
+
+    to {
+        stroke-dashoffset: 1431.4698486328125
+    }
+}
+@keyframes lineRight2 {
+    0% {
+        stroke-dashoffset: 1529.386474609375
+    }
+
+    33.33% {
+        stroke-dashoffset: 0
+    }
+
+    66.66% {
+        stroke-dashoffset: 0
+    }
+
+    99.99% {
+        stroke-dashoffset: -1529.386474609375
+    }
+
+    to {
+        stroke-dashoffset: 1529.386474609375
+    }
+}
+@keyframes lineRight3 {
+    0% {
+        stroke-dashoffset: 1230.516357421875
+    }
+
+    33.33% {
+        stroke-dashoffset: 0
+    }
+
+    66.66% {
+        stroke-dashoffset: 0
+    }
+
+    99.99% {
+        stroke-dashoffset: -1230.516357421875
+    }
+
+    to {
+        stroke-dashoffset: 1230.516357421875
+    }
+}
