@@ -3,7 +3,7 @@ import React from "react";
 function HomeBackground() {
   return (
     <>
-      <div>
+      <div className="">
         {/* svg */}
         <svg
           fill="none"
