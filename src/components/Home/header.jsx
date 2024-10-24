@@ -1,12 +1,14 @@
 import React from "react";
 import HeaderLink from "./headerLink";
 import { RiHeartsFill } from "react-icons/ri";
+import MenuHamburguer from "../Menu/menuHamburguer";
 
 function Header() {
   return (
     <>
-      <header className="w-full z-10">
-        <div className="flex justify-between items-center px-12 py-5">
+      <header className="w-full z-10 absolute ">
+        <MenuHamburguer />
+        <div className="flex justify-between items-center px-12 py-5 hidden sm:block">
           <div className="flex items-center space-x-1 text-backgroundColor_White">
             <RiHeartsFill className="text-4xl" />
             <span className="text-lg font-bold font-sans">P&A</span>
