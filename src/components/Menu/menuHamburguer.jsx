@@ -9,7 +9,7 @@ function MenuHamburguer() {
   };
   return (
     <>
-      <div className="block sm:hidden">
+      <div>
         <div
           id="nav-icon3"
           className={isOpen ? "open" : ""}
