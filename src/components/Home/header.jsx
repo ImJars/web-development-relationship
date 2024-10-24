@@ -7,7 +7,9 @@ function Header() {
   return (
     <>
       <header className="w-full z-10 absolute ">
-        <MenuHamburguer />
+        <div className="flex justify-end px-7 py-7">
+          <MenuHamburguer />
+        </div>
         <div className="flex justify-between items-center px-12 py-5 hidden sm:block">
           <div className="flex items-center space-x-1 text-backgroundColor_White">
             <RiHeartsFill className="text-4xl" />
