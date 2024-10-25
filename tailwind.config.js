@@ -13,6 +13,10 @@ export default {
         color_Pink: '#EC4899',
         color_Blue: '#4577F5',
       },
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif'],
+        'nunito': ['Nunito', 'sans-serif'],
+      },
     },
   },
   plugins: [],

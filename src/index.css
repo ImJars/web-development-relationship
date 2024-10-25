@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@import"https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap";
+@import"https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap";*,:after,:before {
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size: inherit;
+    font-weight: inherit
+}
+
 .vector-home {
     position: absolute;
     top: 0;
@@ -216,3 +227,5 @@
         stroke-dashoffset: 1230.516357421875
     }
 }
+
+
