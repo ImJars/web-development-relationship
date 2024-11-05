@@ -13,7 +13,7 @@ function HomeBackground() {
           className="vector-home vector-home--corner-stain"
         >
           <path
-            fill="#3B57F5"
+            fill="#722F37"
             d="M77.319 350.968C32.815 336.341-100 291.765-100 291.765V-99.208C-100-129.39-75.662-154-45.298-154h290.433l.927 1.857C282.221-69.955 372.851 2.714 440.765 61.685c84.603 73.598 130.961 162.519 68.146 264.905-83.676 136.283-328.909 58.042-431.592 24.378Z"
           ></path>
         </svg>
@@ -26,7 +26,7 @@ function HomeBackground() {
           className="vector-home vector-home--corner-stain animate-home-bubble2"
         >
           <path
-            fill="#398BF9"
+            fill="#722F37"
             d="M94.03 428.34C51.155 415.811-77 377.528-77 377.528V41.1C-77 15.114-53.362-6-24.394-6h280.182l.696 1.624c34.993 70.766 122.362 133.179 187.714 183.991 81.575 63.11 126.302 139.676 65.817 227.844-80.648 117.169-317.03 49.884-415.986 20.881Z"
             opacity="0.2"
           ></path>
@@ -40,7 +40,8 @@ function HomeBackground() {
           className="vector-home left-0 max-w-2xl w-1/2 sm:block md:w-2/5 duration-[5000]"
         >
           <path
-            stroke="#EB4AAE"
+            stroke="#722F37"
+            opacity="0.5"
             strokeDasharray="1759.962158203125 1759.962158203125"
             strokeDashoffset="1759.962158203125"
             strokeMiterlimit="10"
@@ -57,7 +58,8 @@ function HomeBackground() {
           className="vector-home ml-28 left-28 max-w-xl w-[65%] sm:block md:w-[55%] lg:w-[45%] xl:w-2/5 xl:ml-44 xl:left-44"
         >
           <path
-            stroke="#EB4AAE"
+            stroke="#722F37"
+            opacity="0.5"
             strokeDasharray="1894.684814453125 1894.684814453125"
             strokeDashoffset="1894.684814453125"
             strokeMiterlimit="10"
@@ -74,7 +76,8 @@ function HomeBackground() {
           className="vector-home lg:block ml-36 xl:ml-56 left-36 xl:left-56 max-w-sm w-[35%] lg:w-[31%] xl:w-1/4"
         >
           <path
-            stroke="#EB4AAE"
+            stroke="#722F37"
+            opacity="0.5"
             strokeDasharray="1524.201904296875 1524.201904296875"
             strokeDashoffset="1524.201904296875"
             strokeMiterlimit="10"
@@ -90,7 +93,8 @@ function HomeBackground() {
           className="vector-home lg:block mr-24 right-20 max-w-[277px] w-2/5 md:w-[35%] lg:w-1/4 xl:w-1/5"
         >
           <path
-            stroke="#EB4AAE"
+            stroke="#722F37"
+            opacity="0.5"
             strokeDasharray="1431.4698486328125 1431.4698486328125"
             strokeDashoffset="1431.4698486328125"
             strokeMiterlimit="10"
@@ -107,7 +111,8 @@ function HomeBackground() {
           className="vector-home sm:block right-0 max-w-xs w-[45%] md:w-2/5 lg:w-[28%] xl:w-[22.71%]"
         >
           <path
-            stroke="#EB4AAE"
+            stroke="#722F37"
+            opacity="0.5"
             strokeDasharray="1529.386474609375 1529.386474609375"
             strokeDashoffset="1529.386474609375"
             strokeMiterlimit="10"
@@ -124,7 +129,8 @@ function HomeBackground() {
           className="vector-home sm:block right-0 max-w-[210.74px] w-[31%] md:w-1/4 xl:w-1/5"
         >
           <path
-            stroke="#EB4AAE"
+            stroke="#722F37"
+            opacity="0.5"
             strokeDasharray="1230.516357421875 1230.516357421875"
             strokeDashoffset="1230.516357421875"
             strokeMiterlimit="10"

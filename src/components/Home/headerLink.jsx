@@ -4,7 +4,7 @@ function HeaderLink({ url, title__Section }) {
   return (
     <>
       <li className="font-sans">
-        <a className="text-color_Blue text-lg font-medium" href={url}>{title__Section}</a>
+        <a className="text-color_wine text-lg font-bold" href={url}>{title__Section}</a>
       </li>
     </>
   );
