@@ -19,10 +19,10 @@ function Header() {
             <div>
               <nav className="">
                 <ul className="flex space-x-8">
-                  <HeaderLink url="#home" title__Section="Home" />
-                  <HeaderLink url="Story" title__Section="Story" />
-                  <HeaderLink url="About" title__Section="About" />
-                  <HeaderLink url="Contact" title__Section="Contact" />
+                  <HeaderLink url="../" title__Section="Inicio" />
+                  <HeaderLink url="../story" title__Section="Historia" />
+                  <HeaderLink url="../gallery" title__Section="Galeria" />
+                  <HeaderLink url="../comingsoon" title__Section="Proximamente" />
                   <li>
                     <button>
                       <a href="#login">Login</a>
